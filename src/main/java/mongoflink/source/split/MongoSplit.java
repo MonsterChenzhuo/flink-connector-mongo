@@ -4,6 +4,8 @@ import org.apache.flink.api.connector.source.SourceSplit;
 import org.bson.BsonDocument;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * MongoSplit is composed a query and a start offset.
  **/
 public class MongoSplit implements SourceSplit {

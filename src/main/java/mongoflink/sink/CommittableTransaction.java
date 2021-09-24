@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * An simple implementation of Mongo transaction body.
  **/
 public class CommittableTransaction implements TransactionBody<Integer>, Serializable {

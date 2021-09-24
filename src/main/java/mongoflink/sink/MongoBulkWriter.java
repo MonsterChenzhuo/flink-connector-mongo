@@ -24,6 +24,8 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * Writer for MongoDB sink.
  **/
 public class MongoBulkWriter<IN> implements SinkWriter<IN, DocumentBulk, DocumentBulk> {

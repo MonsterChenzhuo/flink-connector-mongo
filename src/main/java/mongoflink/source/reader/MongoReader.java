@@ -11,6 +11,8 @@ import org.bson.Document;
 import java.util.Map;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * MongoReader reads MongoDB by splits (queries).
  **/
 public class MongoReader<E> extends SingleThreadMultiplexSourceReaderBase<Document, E, MongoSplit, MongoSplitState> {

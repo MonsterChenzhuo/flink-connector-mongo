@@ -18,6 +18,8 @@ import java.io.Serializable;
 import java.nio.ByteBuffer;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * Simple serializer for {@link DocumentBulk}.
  **/
 public class DocumentBulkSerializer implements SimpleVersionedSerializer<DocumentBulk>, Serializable {

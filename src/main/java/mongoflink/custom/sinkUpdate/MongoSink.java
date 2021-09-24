@@ -20,14 +20,12 @@ import java.util.Optional;
 import java.util.Properties;
 
 /**
- * <p> Flink sink connector for MongoDB. MongoSink supports transaction mode for MongoDB 4.2+ and non-transaction mode for
- * Mongo 3.0+. </p>
- *
- * <p> In transaction mode, all writes will be buffered in memory and committed to MongoDB in per-taskmanager
- * transactions on successful checkpoints, which ensures exactly-once semantics. </p>
- *
- * <p> In non-transaction mode, writes would be periodically flushed to MongoDB, which provides at-least-once semantics.
- * </p>
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
+ * 用于MongoDB的Flink sink连接器。
+ * MongoDB 4.2+的事务模式，以及MongoDB 3.0+的非事务模式。
+ * 在事务模式下，所有的写都将被缓冲在内存中，并在每个任务管理器事务中提交给MongoDB，这确保了精确一次的语义。
+ * 在非事务模式下，写入将定期刷新到MongoDB，这提供了至少一次的语义。
  **/
 public class MongoSink<IN> implements Sink<IN, DocumentBulk, DocumentBulk, Void>, SinkFunction<String> {
 

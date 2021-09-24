@@ -17,6 +17,8 @@ import java.util.Optional;
 import java.util.Properties;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * <p> Flink sink connector for MongoDB. MongoSink supports transaction mode for MongoDB 4.2+ and non-transaction mode for
  * Mongo 3.0+. </p>
  *

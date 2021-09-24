@@ -1,6 +1,8 @@
 package mongoflink.source.split;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * The mutable version of mongo split.
  **/
 public class MongoSplitState extends MongoSplit {

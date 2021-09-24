@@ -10,6 +10,8 @@ import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * Simple serializer for {@link MongoSplit};
  **/
 public class MongoSplitSerializer implements SimpleVersionedSerializer<MongoSplit> {

@@ -22,6 +22,8 @@ import java.util.List;
 import java.util.Queue;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * Reader that is responsible fetching records from MongoDB split by split.
  **/
 public class MongoSplitReader implements SplitReader<Document, MongoSplit>{

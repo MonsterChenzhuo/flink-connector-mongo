@@ -8,6 +8,8 @@ import org.bson.Document;
 import java.io.Serializable;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * Provided for initiate and recreate {@link MongoClient}.
  **/
 public interface MongoClientProvider extends Serializable {

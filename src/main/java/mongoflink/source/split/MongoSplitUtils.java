@@ -9,6 +9,8 @@ import static com.mongodb.client.model.Filters.gte;
 import static com.mongodb.client.model.Filters.lt;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * Helper class for using {@link MongoSplit}.
  **/
 public class MongoSplitUtils {

@@ -7,6 +7,8 @@ import org.apache.flink.connector.base.source.reader.RecordEmitter;
 import org.bson.Document;
 
 /**
+ * @author chenzhuoyu
+ * @date 2021/9/19 23:22
  * A {@link RecordEmitter} that transforms a Mongo document into records fo the required type.
  **/
 public class MongoEmitter<E> implements RecordEmitter<Document, E, MongoSplitState> {
