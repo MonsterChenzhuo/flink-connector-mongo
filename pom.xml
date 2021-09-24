@@ -4,11 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.mongoflink</groupId>
-    <artifactId>mongo-flink</artifactId>
+    <groupId>com.analysys.flink</groupId>
+    <artifactId>flink-connector-mongo</artifactId>
     <version>4.2.2</version>
-
-    <name>mongo-flink</name>
     <url>http://www.github.com/mongo-flink/mongo-flink</url>
 
     <properties>
