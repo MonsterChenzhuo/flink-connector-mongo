@@ -1,8 +1,9 @@
-package mongoflink.custom.yiguan;
+package mongoflink.custom.sinkUpdate;
 
 import org.bson.Document;
 
 import javax.annotation.concurrent.NotThreadSafe;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,7 @@ import java.util.Objects;
  * 每个DocumentBulk可能被限制在最大大小，通常是1000个文档。但是对于事务模式，不应该考虑最大大小，
  * 因为所有数据都必须在一个事务中写入。
  **/
+@SuppressWarnings("checkstyle:RegexpMultiline")
 @NotThreadSafe
 public class DocumentBulk implements Serializable {
 

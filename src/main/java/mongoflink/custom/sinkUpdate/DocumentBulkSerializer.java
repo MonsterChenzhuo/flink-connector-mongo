@@ -1,4 +1,4 @@
-package mongoflink.custom.yiguan;
+package mongoflink.custom.sinkUpdate;
 
 import org.apache.flink.core.io.SimpleVersionedSerializer;
 import org.apache.flink.core.memory.DataInputDeserializer;

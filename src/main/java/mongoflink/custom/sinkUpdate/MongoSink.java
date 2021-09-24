@@ -1,4 +1,4 @@
-package mongoflink.custom.yiguan;
+package mongoflink.custom.sinkUpdate;
 
 
 
